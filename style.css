@@ -1,0 +1,59 @@
+.header{
+    background-color: black;
+    padding: 2px;
+}
+a{
+    color:wheat;
+text-decoration: none;
+font-family: 'East Sea Dokdo', sans-serif;
+font-size: xx-large;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+}
+.flex-container{
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 50px;
+margin-bottom: 10px;
+background-color: tan;
+padding: 80px;
+padding-right: 40px;
+ 
+}
+.slide-up-fade {
+    animation: slide-up-fade 1s ease-in-out;
+  }
+  
+  @keyframes slide-up-fade {
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .slide-up-fade2 { 
+    animation: slide-up-fade 1.5s ease-in-out;
+  }
+  
+  @keyframes slide-up-fade2 {
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  body {
+    margin: 0;
+  }
+  
+  
